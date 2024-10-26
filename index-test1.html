@@ -16,7 +16,16 @@
         <button id="getListButton" class="font-24px">
             獲取列表
         </button>
-        <script src="main-test1.js"></script>
+        <script>
+            // 定義 API 的網址
+            const api_url = 'http://127.0.0.1:50/get_list';
+            // 監聽 id=getListButton 按鈕的點擊事件
+            document.getElementById('getListButton')
+                .addEventListener('click', () => {
+                    document.getElementById('itemList')
+                        .innerText = 'Hello Ted !'
+                });
+        </script>
 </body>
 
 </html>

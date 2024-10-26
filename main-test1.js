@@ -3,8 +3,11 @@ const api_url = 'http://127.0.0.1:50/get_list';
 // 監聽 id=getListButton 按鈕的點擊事件
 document.getElementById('getListButton')
     .addEventListener('click', () => {
+        document.getElementById('itemList')
+            .innerText = 'Hello Ted !'
+
         // 使用 fetch 函數向 API 網址發送 GET 請求
-        
+        /*
         fetch(api_url).then(response => {
             response.json().then(body => {
                 // 清單的內容顯示於列表空間
@@ -12,5 +15,6 @@ document.getElementById('getListButton')
                     .innerText = body.items;
             });
         });
-        
+        */
+       
     });
