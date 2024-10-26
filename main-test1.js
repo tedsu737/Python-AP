@@ -5,7 +5,7 @@ document.getElementById('getListButton')
     .addEventListener('click', () => {
         document.getElementById('itemList')
             .innerText = 'Hello Ted !'
-
+            
         // 使用 fetch 函數向 API 網址發送 GET 請求
         /*
         fetch(api_url).then(response => {
@@ -16,5 +16,4 @@ document.getElementById('getListButton')
             });
         });
         */
-       
     });

@@ -1,5 +1,5 @@
 // 定義 API 的網址
-const api_url = 'http://127.0.0.1:50/get_list';
+const api_url = 'http://127.0.0.1:5000/getlist';
 // 監聽 id=getListButton 按鈕的點擊事件
 document.getElementById('getListButton')
     .addEventListener('click', () => {
