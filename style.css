@@ -1,19 +1,22 @@
-h1, button {
-    width:20%;
+h1,
+button {
+    width: 20%;
     /* 設定外邊距 */
-    margin:1% 40%;
+    margin: 1% 40%;
     /* 設定外框線 */
     border: 1px solid;
-  }
-  #itemList {
-    width:100%; 
-    height:250px;
-    background-color:#ccc;
-  }
-  .font-center{
-    text-align:center;
-  }
-  .font-24px{
-    font-size:24px;
-  }
-  
+}
+
+#itemList {
+    width: 100%;
+    height: 250px;
+    background: #778bff;
+}
+
+.font-center {
+    text-align: center;
+}
+
+.font-24px {
+    font-size: 24px;
+}
